@@ -51,7 +51,15 @@ function NavBar() {
             >
               <ul className="h-screen md:h-auto  md:flex ">
               <li
-                  className=" text-[18px] text-white py-4 md:px-6 text-center border-b-2 
+                  className=" text-[16px] text-white py-4 md:px-6 text-center border-b-2 
+                md:border-b-0  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent"
+                >
+                  <Link href="/facebook" onClick={() => setNavbar(!navbar)}>
+                    
+                  </Link>
+                </li>
+                <li
+                  className=" text-[16px] text-white py-4 md:px-6 text-center border-b-2 
                 md:border-b-0  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent"
                 >
                   <Link href="/" onClick={() => setNavbar(!navbar)}>
@@ -59,7 +67,7 @@ function NavBar() {
                   </Link>
                 </li>
                 <li
-                  className=" text-[18px] text-white py-4 md:px-6 text-center border-b-2 
+                  className=" text-[16px] text-white py-4 md:px-6 text-center border-b-2 
                 md:border-b-0  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent"
                 >
                   <Link href="/facebook" onClick={() => setNavbar(!navbar)}>
@@ -67,7 +75,7 @@ function NavBar() {
                   </Link>
                 </li>
                 <li
-                  className=" text-[18px] text-white py-4 px-6 text-center  border-b-2 md:border-b-0 
+                  className=" text-[16px] text-white py-4 px-6 text-center  border-b-2 md:border-b-0 
                  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent"
                 >
                   <Link href="/youtube" onClick={() => setNavbar(!navbar)}>
@@ -75,7 +83,7 @@ function NavBar() {
                   </Link>
                 </li>
                 <li
-                  className=" text-[18px] text-white py-4 px-6 text-center  border-b-2 md:border-b-0 
+                  className=" text-[16px] text-white py-4 px-6 text-center  border-b-2 md:border-b-0 
                  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent"
                 >
                   <Link href="/tiktok" onClick={() => setNavbar(!navbar)}>
@@ -83,7 +91,7 @@ function NavBar() {
                   </Link>
                 </li>
                 <li
-                  className=" text-[18px] text-white py-4 px-6 text-center  border-b-2 md:border-b-0 
+                  className=" text-[16px] text-white py-4 px-6 text-center  border-b-2 md:border-b-0 
                  hover:bg-sky-600  border-sky-600  md:hover:text-sky-600 md:hover:bg-transparent"
                 >
                   <Link href="/contact" onClick={() => setNavbar(!navbar)}>

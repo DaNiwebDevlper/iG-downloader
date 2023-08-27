@@ -6,11 +6,12 @@ const LogoCloud = () => {
     <>
       <div className="h-[88vh] flex flex-col items-center justify-center">
         <div className=" w-[80%] min-h-[70%] md:max-h-[60%] bg-gray-100 rounded-2xl flex flex-col items-center py-7">
-          <h2 className="font-bold text-xl text-slate-800 md:text-4xl">
+          <h2 className="font-bold text-xl bg-gradient-to-l from-pink-600 to-blue-600 bg-clip-text text-transparent md:text-4xl">
             OUR SERVICES
           </h2>
           <p className="text-[10px] py-3 md:text-[16px]">
-            It download the videos/images in high quality. it support fast downloading
+            It download the videos/images in high quality. it support fast
+            downloading
           </p>
 
           <div className="flex gap-5 py-5 md:gap-7 justify-center min-h-[500px] flex-wrap">

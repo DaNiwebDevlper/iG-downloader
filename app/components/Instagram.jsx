@@ -27,7 +27,7 @@ const Instagram = () => {
   };
   return (
     <>
-      <div className="link pt-7 flex justify-start h-[70vh]">
+      <div className="link pt-7 flex justify-start h-screen mt-[-33px]">
         <div
           className={`bg-gradient-to-l from-[#3f5efb] to-[#fc466b] w-[100%] h-[70vh] flex items-center justify-center flex-col`}
         >
@@ -67,8 +67,10 @@ const Instagram = () => {
         {step == 2 &&
           link.map((videourl) => {
             return (
-              <div class="bg-video p-2 flex justify-center items-center ">
-                <div className="w-[300px] bg-slate-900 px-[50px] rounded-lg">
+              <div class="bg-video p-2 flex justify-center items-center flex-col">
+                <h1 className="text-xl md:text-3xl font-bold pb-[20px] bg-gradient-to-l from-pink-600 to-blue-700 bg-clip-text text-transparent">Video Page</h1>
+                <p className="pb-[20px]">Press the three dots and samply select the download option to download the video</p>
+                <div className="w-[300px] bg-gradient-to-t from-pink-600 to-blue-700 px-[50px] rounded-lg">
                   <video class="bg-video__content" controls>
                     <source
                       src={
