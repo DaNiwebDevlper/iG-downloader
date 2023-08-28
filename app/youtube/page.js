@@ -7,7 +7,7 @@ const YouTube = () => {
       <div className="link flex justify-start h-[70vh] ">
         <div
           className="bg-gradient-to-tl from-red-700 to-red-400 w-[100%] 
-        h-[70vh] flex items-center justify-center flex-col"
+        h-[70vh] flex items-center justify-center flex-col mt-[-36px]"
         >
           <h1 className="text-gray-200 text-[25px] md:text-3xl font-bold">
             YouTube Downloader
