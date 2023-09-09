@@ -18,7 +18,7 @@ const Card = ({ title, color, src }) => {
         </div>
         <div >
           <Image src={src} width={700} height={700} alt="Tiktok"
-          className="md:w-[500px] w-[400px] rounded-lg " />
+          className="md:w-[400px] w-[400px] rounded-lg " />
         </div>
       </div>
     </>
