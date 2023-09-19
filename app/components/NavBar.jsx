@@ -6,7 +6,7 @@ import { useState } from "react";
 function NavBar() {
   const [navbar, setNavbar] = useState(false);
   return (
-    <nav className="w-full bg-slate-800 fixed top-0 left-0 right-0 z-10 shadow-lg">
+    <nav className="w-full bg-slate-800 sticky top-0  z-10 shadow-lg">
       <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
         <div>
           <div className="flex items-center justify-between py-2 px-3">

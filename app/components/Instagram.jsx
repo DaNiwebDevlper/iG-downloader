@@ -31,23 +31,26 @@ const Instagram = () => {
         <div
           className={`bg-gradient-to-l from-[#3f5efb] to-[#fc466b] w-[100%] h-[70vh] flex items-center justify-center flex-col`}
         >
-          <h1 className="text-gray-200 text-[25px] md:text-3xl font-bold">
+          <h1 className="text-gray-200 text-[25px] md:text-[35px] font-bold">
             Instagram Downloader
           </h1>
-          <p className="text-[13px] py-3 text-gray-400">
+          <p className="text-[13px] py-3 text-gray-400 text-center">
             Paste the Link below here to download the Videos/Images
           </p>
-          <div className="outer">
+          <div className="flex">
             <input
               value={url}
               onChange={onChange}
               type="text"
-              className="h-12 bg-slate-200"
+              className="h-12 bg-slate-200 md:w-[500px] w-[200px] 
+              outline-none px-4 rounded-tl-md rounded-bl-md"
               placeholder="Paste the URL"
             />
             <button
               onClick={handler}
-              className="bg-slate-800 hover:bg-slate-950 transition text-white px-5 py-3"
+              className="bg-slate-800 text-[14px] md:text-[16px] 
+              hover:bg-slate-950 transition text-white px-3  
+              md:px-5 py-3 rounded-tr-md rounded-br-md"
             >
               Get video
             </button>
@@ -56,7 +59,7 @@ const Instagram = () => {
           <a
             target="_blank"
             href="https://www.youtube.com/"
-            className="text-sky-500 pt-2"
+            className="text-sky-500 pt-2 hover:underline"
           >
             How to download the Videos/Images?
           </a>

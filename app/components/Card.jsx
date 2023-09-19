@@ -7,9 +7,9 @@ const Card = ({ title, color, src }) => {
         className="container w-[100%] h-[100vh] flex flex-col-reverse 
       md:flex-row md:justify-between items-center md:px-10 md:mt-1 mt-[50px]"
       >
-        <div className="content md:w-[500px] max-w-[450px] py-5">
+        <div className="content md:w-[500px] max-w-[450px] py-5 px-5">
           <h1 className={`text-xl md:text-3xl font-bold ${color}  py-3`}>{title}</h1>
-          <p className="text-[14px] md:text-xl text-slate-700">
+          <p className="text-[14px] md:text-xl text-slate-700 ">
             To download the Videos and Images, simply paste the url of videos or
             image that you want to download. It provide the high speed
             downloading. You can downoad your favorite in few seconds or mintus.

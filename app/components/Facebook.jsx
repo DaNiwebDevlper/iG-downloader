@@ -4,28 +4,31 @@ import "@/app/styles/LinkComp.css";
 const FaceBook = () => {
   return (
     <>
-      <div className="link pt-7 flex justify-start h-[70vh]">
+      <div className="flex justify-start h-[70vh]">
         <div
           className="bg-gradient-to-b from-blue-700 to-sky-400 w-[100%] 
         h-[70vh] flex items-center justify-center flex-col"
         >
-          <h1 className="text-gray-200 text-[25px] md:text-[30px] font-bold">
+          <h1 className="text-gray-200 text-[25px] md:text-[35px] font-bold">
             FaceBook Downloader
           </h1>
           <p className="text-[13px] py-3 text-gray-400">
             Paste the Link below here to download the Videos/Images
           </p>
-          <div className="outer">
+          <div className="flex">
             <input
               // value={url}
               // onChange={onChange}
               type="text"
-              className="h-12 bg-slate-200"
+              className="h-12 bg-slate-200 md:w-[500px] w-[200px] 
+              outline-none px-4 rounded-tl-md rounded-bl-md"
               placeholder="Paste the URL"
             />
             <button
               // onClick={handler}
-              className="bg-slate-800 hover:bg-slate-950 transition text-white px-5 py-3"
+              className="bg-slate-800 text-[14px] md:text-[16px] 
+              hover:bg-slate-950 transition text-white px-3  
+              md:px-5 py-3 rounded-tr-md rounded-br-md"
             >
               Get video
             </button>
